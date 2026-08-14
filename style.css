@@ -9,6 +9,21 @@ body {
     background-color: #E8EEF5;
 }
 
+.titre_section{
+    font-size: 1.8em;
+    color: #0055CC;
+    padding-bottom: 8px;
+    border-bottom: 5px solid #0055CC;
+    width: fit-content; /* fit-content permet d'ajuster la largeur du h3 en fonction du contenu */
+    margin-bottom: 20px;
+}
+
+.bloc_section{
+    padding: 20px 0px;
+    border-bottom: 1px solid #E0E8F5;
+}
+
+
 /* Début style main */
 
 main
@@ -92,7 +107,6 @@ nav h4{
 
 nav ul{
     display: flex;
-    text-decoration: none;
     list-style: none;
 
 }
@@ -121,7 +135,72 @@ nav ul li:hover a{
     color: #FFFFFF;
 }
 
-
 /* Fin style menu de navigation */
 
-/* Fin style block container */
+/* Debut style section profil */
+
+.section_profil{
+    padding: 20px 0px;
+    border-bottom: 1px solid #E0E8F5;
+}
+
+.section_profil h3{
+    font-size: 1.8em;
+    color: #0055CC;
+    padding-bottom: 8px;
+    border-bottom: 5px solid #0055CC;
+    width: fit-content; /* fit-content permet d'ajuster la largeur du h3 en fonction du contenu */
+    margin-bottom: 20px;
+}
+
+#photo{
+    width: 100px;
+    height: 100px;
+    background-color: #030c1b;
+    border-radius: 100%;
+    border: 2px solid #0055CC;
+    overflow: hidden; /* pour que l'image ne dépasse pas du conteneur */
+    margin-bottom: 20px;
+}
+
+.section_profil img{
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+.section_profil p{
+    padding: 10px 16px;
+    background-color: #F5F8FF;
+    border-left: 5px solid #0055CC;
+}
+
+/* Fin style section profil */
+
+/* Début style section mes compétences */
+
+.list{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+.list_competences li{
+    margin-bottom: 10px;
+    padding: 10px 16px;
+    background-color: #F5F8FF;
+    border-left: 5px solid #0055CC;
+}
+
+/* Fin style section mes compétences */
+
+
+/* Début style section mes expériences */
+
+/* Fin style section mes expériences */
+
+/* Début style section mes projets */
+
+/* Fin style section mes projets */
+
+/* Début style block container */
