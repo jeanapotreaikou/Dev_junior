@@ -4,37 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <h1>Contacts</h1>
-    <p>Vous pouvez me contacter via les coordonnées suivantes :</p>
-    <ul>
-        <li>Email : <a href="mailto:aikoujeanapotre@gmail.com">aikoujeanapotre@gmail.com</a></li>
-        <li>Téléphone : <a href="tel:+2290166633357">+229 0166633357</a></li>
-        <li>Adresse : Cotonou, Rép. du Bénin</li>
-    </ul>
+    <div class="container">
+        <header>
+            <h1>Contacts</h1>
+            <p>Jean Apôtre AÏKOU — Référent Digital</p>
+        </header>
 
-    <h2>Formulaire de contact</h2>
-    <form action="">
-        <input type="text" placeholder="Nom" required> <br>
-        <input type="text" placeholder="Prénom(s)" required> <br>
-        <p>Genre</p>
-        <input type="radio" name="genre" value="homme" required> <span>Masculin</span> <br>
-        <input type="radio" name="genre" value="femme" required> <span>Féminin</span> <br>
-        <input type="number" placeholder="Téléphone" required> <br>
-        <input type="email" placeholder="Email" required> <br>
-        <p>Choisissez le/les type(s) de service(s) souhaité(s) :</p>
-        <input type="checkbox" required><span>Communication Digitale</span><br>
-        <input type="checkbox" required><span>Graphisme</span> <br>
-        <input type="checkbox" required><span>Marketing Digital</span> <br>
-        <input type="checkbox" required><span>Développement Web</span><br>
+        <section class="section_style mes_coordonnes">
+            <h2 class="titre_section">Mes coordonnées</h2>
+            <p>Vous pouvez me contacter via les coordonnées suivantes :</p>
+            <ul>
+                <li>Email : <a href="mailto:aikoujeanapotre@gmail.com">aikoujeanapotre@gmail.com</a></li>
+                <li>Téléphone : <a href="tel:+2290166633357">+229 0166633357</a></li>
+                <li>Adresse : Cotonou, Rép. du Bénin</li>
+            </ul>
+        </section>
 
-        <textarea placeholder="Votre Message" rows="5" cols="30" required></textarea><br>
+        <section class="section_style">
+            <h2 class="titre_section">Formulaire de contact</h2>
+            <form action="">
+                <input type="text" placeholder="Nom" required> <br>
+                <input type="text" placeholder="Prénom(s)" required> <br>
+                <p>Genre</p>
+                <input type="radio" name="genre" value="homme" required> <span>Masculin</span> <br>
+                <input type="radio" name="genre" value="femme" required> <span>Féminin</span> <br>
+                <input type="number" placeholder="Téléphone" required> <br>
+                <input type="email" placeholder="Email" required> <br>
+                <p>Choisissez le/les type(s) de service(s) souhaité(s) :</p>
+                <input type="checkbox" required><span>Communication Digitale</span><br>
+                <input type="checkbox" required><span>Graphisme</span> <br>
+                <input type="checkbox" required><span>Marketing Digital</span> <br>
+                <input type="checkbox" required><span>Développement Web</span><br>
 
-        <button type="submit">Envoyer</button>
+                <textarea placeholder="Votre Message" rows="5" cols="30" required></textarea><br>
 
-
-
-    </form>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </div>
 </body>
 </html>

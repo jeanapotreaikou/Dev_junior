@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E8EEF5;
+}
+
+.section_style{
+    padding: 50px;
+    border-bottom: 1px solid #E0E8F5;
+}
+
+.container {
+    margin: 50px 260px;
+    background-color: #FFFFFF;
+    border:#C8D4E3 solid 0.73px;
+    border-radius: 8px;
+}
+
+.titre_section{
+    color: #0055CC;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #0055CC;
+    width: fit-content; /* fit-content permet d'ajuster la largeur du h3 en fonction du contenu */
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+/* Début style header */
+
+header{
+    background-color: #0055CC;
+    color: white;
+    padding: 50px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+header h1 {
+    font-weight: 400;
+}
+
+header p{
+    color: white;
+    opacity: 0.71;
+}
+
+/* Fin style header */
+
+
+/* Début style Section Mes coordonnées */
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+ul li{
+    margin-bottom: 10px;
+    padding: 10px 16px;
+    background-color: #F5F8FF;
+    border-left: 5px solid #0055CC;
+}
+
+.mes_coordonnes p {
+    margin-bottom: 10px;
+}
+
+/* Fin style Section Mes coordonnées */
+
+/* Début style section formulaire */
+
+
+/* Fin style section formulaire */
+
+
