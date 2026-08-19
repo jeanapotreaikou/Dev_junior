@@ -86,12 +86,20 @@ ul li{
     border: 1px solid #C8D4E3;
     border-radius: 8px;
     background-color: #F5F8FF;
-    padding: 10px;
+    padding: 17px;
+    width: 100%;
+    box-sizing: border-box;
+
 
 }
 
 .bloc-input{
-    display: flex;
+    /* Affiche les éléments en grille */
+    display: grid;
+    /* Crée deux colonnes de taille égale */
+    grid-template-columns: 1fr 1fr;
+    /* Définit un espacement de 16px entre les éléments */
+    gap: 16px;
 }
 
 /* Fin style section formulaire */
